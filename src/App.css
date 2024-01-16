@@ -1,0 +1,77 @@
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  height: 90vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #fff;  /* fallback for old browsers */
+
+}
+p{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+}
+
+h1 {
+  margin: 0;
+  color: #000000;
+  font-size: 3rem;
+  max-width: 80vw;
+  font-weight: 900;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .oneAdhkar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
